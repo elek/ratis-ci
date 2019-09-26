@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.server.simulation.TestRaftStateMachineExceptionWithSimulatedRpc
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.47 s <<< FAILURE! - in org.apache.ratis.server.simulation.TestRaftStateMachineExceptionWithSimulatedRpc
+testRetryOnExceptionDuringReplication(org.apache.ratis.server.simulation.TestRaftStateMachineExceptionWithSimulatedRpc)  Time elapsed: 1.156 s  <<< ERROR!
+java.lang.NullPointerException
+

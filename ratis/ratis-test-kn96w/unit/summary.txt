@@ -1,0 +1,12 @@
+org.apache.ratis.server.simulation.TestLeaderElectionWithSimulatedRpc
+org.apache.ratis.server.simulation.TestRaftSnapshotWithSimulatedRpc
+org.apache.ratis.netty.TestRaftStateMachineExceptionWithNetty
+org.apache.ratis.grpc.TestWatchRequestWithGrpc
+org.apache.ratis.netty.TestRaftReconfigurationWithNetty
+org.apache.ratis.grpc.TestRaftStateMachineExceptionWithGrpc
+org.apache.ratis.grpc.TestRaftReconfigurationWithGrpc
+org.apache.ratis.server.raftlog.TestRaftLogMetrics
+org.apache.ratis.server.simulation.TestRaftStateMachineExceptionWithSimulatedRpc
+org.apache.ratis.logservice.TestLogServiceWithNetty
+org.apache.ratis.examples.filestore.TestFileStoreWithNetty
+org.apache.ratis.examples.filestore.TestFileStoreWithGrpc

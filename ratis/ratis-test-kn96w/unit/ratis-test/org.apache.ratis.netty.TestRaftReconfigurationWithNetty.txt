@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.netty.TestRaftReconfigurationWithNetty
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 102.864 s <<< FAILURE! - in org.apache.ratis.netty.TestRaftReconfigurationWithNetty
+testRevertConfigurationChange(org.apache.ratis.netty.TestRaftReconfigurationWithNetty)  Time elapsed: 2.077 s  <<< FAILURE!
+java.lang.AssertionError
+
+testAddPeers(org.apache.ratis.netty.TestRaftReconfigurationWithNetty)  Time elapsed: 6.475 s  <<< FAILURE!
+java.lang.AssertionError
+
+testLeaderStepDown(org.apache.ratis.netty.TestRaftReconfigurationWithNetty)  Time elapsed: 12.149 s  <<< FAILURE!
+java.lang.AssertionError
+
+testKillLeaderDuringReconf(org.apache.ratis.netty.TestRaftReconfigurationWithNetty)  Time elapsed: 46.43 s  <<< ERROR!
+java.lang.IllegalStateException: 
+No leader yet : printing ALL groups
+  s3:   CLOSED  FOLLOWER s3@group-808489D4E928:t0, leader=null, voted=null, raftlog=s3@group-808489D4E928-SegmentedRaftLog:CLOSED:c-1, conf=-1: [s0:0.0.0.0:42957, s1:0.0.0.0:41030, s2:0.0.0.0:35144], old=null CLOSED
+  s0:  RUNNING CANDIDATE s0@group-808489D4E928:t202, leader=null, voted=s0, raftlog=s0@group-808489D4E928-SegmentedRaftLog:OPENED:c-1,f-1,i0, conf=-1: [s0:0.0.0.0:42957, s1:0.0.0.0:41030, s2:0.0.0.0:35144], old=null RUNNING
+  s1:  RUNNING CANDIDATE s1@group-808489D4E928:t190, leader=null, voted=s1, raftlog=s1@group-808489D4E928-SegmentedRaftLog:OPENED:c0,f0,i0, conf=0: [s0:0.0.0.0:42957, s1:0.0.0.0:41030, s2:0.0.0.0:35144], old=null RUNNING
+  s2:   CLOSED    LEADER s2@group-808489D4E928:t1, leader=s2, voted=s2, raftlog=s2@group-808489D4E928-SegmentedRaftLog:CLOSED:c0, conf=0: [s0:0.0.0.0:42957, s1:0.0.0.0:41030, s2:0.0.0.0:35144], old=null CLOSED
+
+testReconfTwice(org.apache.ratis.netty.TestRaftReconfigurationWithNetty)  Time elapsed: 12.084 s  <<< FAILURE!
+java.lang.AssertionError
+

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.examples.filestore.TestFileStoreWithGrpc
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 92.73 s <<< FAILURE! - in org.apache.ratis.examples.filestore.TestFileStoreWithGrpc
+testFileStore(org.apache.ratis.examples.filestore.TestFileStoreWithGrpc)  Time elapsed: 92.563 s  <<< FAILURE!
+java.lang.AssertionError: Unexpected exit.
+Caused by: org.apache.ratis.util.ExitUtils$ExitException: Thread[s0@group-7AF8AB8493DF-LeaderElection34,5,FailOnTimeoutGroup] has thrown an uncaught exception
+Caused by: java.lang.IllegalStateException: ILLEGAL TRANSITION: In s0@group-7AF8AB8493DF-LeaderElection34, RUNNING -> CLOSED
+
+testFileStore(org.apache.ratis.examples.filestore.TestFileStoreWithGrpc)  Time elapsed: 92.564 s  <<< FAILURE!
+java.lang.AssertionError: Unexpected exit.
+Caused by: org.apache.ratis.util.ExitUtils$ExitException: Thread[s0@group-7AF8AB8493DF-LeaderElection34,5,FailOnTimeoutGroup] has thrown an uncaught exception
+Caused by: java.lang.IllegalStateException: ILLEGAL TRANSITION: In s0@group-7AF8AB8493DF-LeaderElection34, RUNNING -> CLOSED
+
