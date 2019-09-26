@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.examples.filestore.TestFileStoreWithGrpc
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 84.204 s <<< FAILURE! - in org.apache.ratis.examples.filestore.TestFileStoreWithGrpc
+testFileStore(org.apache.ratis.examples.filestore.TestFileStoreWithGrpc)  Time elapsed: 84.048 s  <<< ERROR!
+org.apache.ratis.protocol.StateMachineException: java.util.concurrent.CompletionException: java.io.IOException: Failed write(foo, 5033984, false) @s0:2467
+

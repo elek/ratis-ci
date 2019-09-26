@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.grpc.TestWatchRequestWithGrpc
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 53.096 s <<< FAILURE! - in org.apache.ratis.grpc.TestWatchRequestWithGrpc
+testWatchRequestAsync(org.apache.ratis.grpc.TestWatchRequestWithGrpc)  Time elapsed: 11.719 s  <<< ERROR!
+java.util.concurrent.TimeoutException
+
+testWatchRequestTimeout(org.apache.ratis.grpc.TestWatchRequestWithGrpc)  Time elapsed: 13.047 s  <<< ERROR!
+java.util.concurrent.TimeoutException
+

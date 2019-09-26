@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.logservice.TestLogServiceWithNetty
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 6.063 s <<< FAILURE! - in org.apache.ratis.logservice.TestLogServiceWithNetty
+testReadAllRecords(org.apache.ratis.logservice.TestLogServiceWithNetty)  Time elapsed: 2.381 s  <<< ERROR!
+java.lang.NullPointerException
+
+testLogServiceReadWrite(org.apache.ratis.logservice.TestLogServiceWithNetty)  Time elapsed: 0.685 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+

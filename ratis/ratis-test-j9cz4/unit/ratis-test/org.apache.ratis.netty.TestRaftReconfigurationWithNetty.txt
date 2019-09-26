@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.netty.TestRaftReconfigurationWithNetty
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.027 s <<< FAILURE! - in org.apache.ratis.netty.TestRaftReconfigurationWithNetty
+testReconfTwice(org.apache.ratis.netty.TestRaftReconfigurationWithNetty)  Time elapsed: 3.219 s  <<< FAILURE!
+java.lang.AssertionError: 
+s3: ConfigurationManager, init=-1: [s0:0.0.0.0:38978, s1:0.0.0.0:46247, s2:0.0.0.0:41658], old=null, confs={
+  0 -> 0: [s0:0.0.0.0:38978, s1:0.0.0.0:46247, s2:0.0.0.0:41658], old=null
+  41 -> 41: [s0:0.0.0.0:38978, s1:0.0.0.0:46247, s2:0.0.0.0:41658], old=null
+  43 -> 43: [s3:0.0.0.0:35928, s4:0.0.0.0:38695, s0:0.0.0.0:38978, s1:0.0.0.0:46247, s2:0.0.0.0:41658], old=[s0:0.0.0.0:38978, s1:0.0.0.0:46247, s2:0.0.0.0:41658]
+  45 -> 45: [s3:0.0.0.0:35928, s4:0.0.0.0:38695, s0:0.0.0.0:38978, s1:0.0.0.0:46247, s2:0.0.0.0:41658], old=null
+  47 -> 47: [s3:0.0.0.0:35928, s4:0.0.0.0:38695, s2:0.0.0.0:41658], old=[s3:0.0.0.0:35928, s4:0.0.0.0:38695, s0:0.0.0.0:38978, s1:0.0.0.0:46247, s2:0.0.0.0:41658]
+  49 -> 49: [s3:0.0.0.0:35928, s4:0.0.0.0:38695, s2:0.0.0.0:41658], old=null
+  51 -> 51: [s3:0.0.0.0:35928, s4:0.0.0.0:38695, s2:0.0.0.0:41658], old=null
+} expected:<7> but was:<8>
+

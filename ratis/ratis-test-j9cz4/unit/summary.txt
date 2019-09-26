@@ -1,0 +1,9 @@
+org.apache.ratis.server.simulation.TestRaftWithSimulatedRpc
+org.apache.ratis.grpc.TestRaftSnapshotWithGrpc
+org.apache.ratis.netty.TestRaftReconfigurationWithNetty
+org.apache.ratis.grpc.TestWatchRequestWithGrpc
+org.apache.ratis.examples.filestore.TestFileStoreWithGrpc
+org.apache.ratis.examples.filestore.TestFileStoreWithNetty
+org.apache.ratis.logservice.server.TestMetaServer
+org.apache.ratis.logservice.TestLogServiceWithGrpc
+org.apache.ratis.logservice.TestLogServiceWithNetty
