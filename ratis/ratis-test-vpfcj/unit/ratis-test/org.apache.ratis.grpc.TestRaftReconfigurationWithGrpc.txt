@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.grpc.TestRaftReconfigurationWithGrpc
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 38.401 s <<< FAILURE! - in org.apache.ratis.grpc.TestRaftReconfigurationWithGrpc
+testBootstrapReconf(org.apache.ratis.grpc.TestRaftReconfigurationWithGrpc)  Time elapsed: 5.894 s  <<< ERROR!
+java.lang.NullPointerException
+

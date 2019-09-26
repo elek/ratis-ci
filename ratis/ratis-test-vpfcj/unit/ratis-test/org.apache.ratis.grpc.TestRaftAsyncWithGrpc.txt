@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.grpc.TestRaftAsyncWithGrpc
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 116.265 s <<< FAILURE! - in org.apache.ratis.grpc.TestRaftAsyncWithGrpc
+testNoRetryWaitOnNotLeaderException(org.apache.ratis.grpc.TestRaftAsyncWithGrpc)  Time elapsed: 30.022 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 30000 milliseconds
+

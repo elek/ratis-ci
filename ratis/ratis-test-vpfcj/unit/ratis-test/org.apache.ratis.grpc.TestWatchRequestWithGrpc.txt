@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ratis.grpc.TestWatchRequestWithGrpc
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.719 s <<< FAILURE! - in org.apache.ratis.grpc.TestWatchRequestWithGrpc
+testWatchRequestAsync(org.apache.ratis.grpc.TestWatchRequestWithGrpc)  Time elapsed: 19.874 s  <<< FAILURE!
+java.lang.AssertionError: Done unexpectedly: RaftClientReply:client-ED2D887B9161->s0@group-CF16B74FCA38, cid=2610, SUCCESS, logIndex=470, commits[s0:c470, s1:c469, s2:c467]
+
